@@ -4,7 +4,7 @@ pipelineJob('demo-git03') {
             scm {
                 git {
                     remote {
-                        github('Puller23/jenkins-dsl.git')
+                        github('Puller23/jenkins-dsl')
                     }
                 }
             }
